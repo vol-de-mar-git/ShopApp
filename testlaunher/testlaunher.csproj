@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Protobuf Include="..\Protos\shop.proto" GrpcServices="Client" />
+      <PackageReference Include="Google.Protobuf" Version="3.19.4" />
+      <PackageReference Include="Grpc.Net.Client" Version="2.43.0-pre1" />
+      <PackageReference Include="Grpc.Tools" Version="2.44.0-pre2">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\Protos\greet.proto">
+        <Link>Protos\greet.proto</Link>
+      </Content>
+      <Content Include="..\Protos\shop.proto">
+        <Link>Protos\shop.proto</Link>
+      </Content>
+    </ItemGroup>
+
+</Project>

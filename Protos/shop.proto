@@ -1,0 +1,72 @@
+syntax = "proto3";
+
+option csharp_namespace = "TestDb2";
+
+package greet;
+
+// The greeting service definition.
+service RemoteShop {
+  // Sends a greeting
+  rpc GetProductById (ProductByIdRequest) returns (ProductModel);
+  rpc GetProducts (Empty) returns (ProductsResponse);
+  rpc AddProduct (ProductModel) returns (Empty);
+  rpc BuyProductById (ProductByIdRequest) returns (Empty);
+  rpc DeleteProductById (ProductByIdRequest) returns (Empty);
+  rpc GetNames (NamesRequest) returns (NamesModel);
+}
+
+message ProductByIdRequest
+{
+ string productId = 1;
+}
+
+message Empty
+{
+
+}
+
+message ProductsResponse {
+    repeated ProductModel products = 1;
+}
+
+message ProductModel{
+string id = 1;
+string name = 2;
+double price = 3;
+DesignerModel designer = 4;
+CategoryModel category = 5;
+BrandModel brand = 6;
+CountryModel country = 7;
+int32 count = 9;
+}
+
+message DesignerModel{
+string id = 1;
+string name = 2;
+string lastName = 3;
+CountryModel Country = 4;
+}
+
+message CategoryModel{
+string id = 1;
+string name = 2;
+}
+
+message CountryModel{
+string id = 1;
+string name = 2;
+}
+
+message BrandModel{
+string id = 1;
+string name = 2;
+}
+
+message NamesModel{
+repeated string names = 1;
+}
+
+message NamesRequest{
+string name = 1;
+}
+

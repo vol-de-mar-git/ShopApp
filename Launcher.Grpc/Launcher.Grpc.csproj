@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>10.0</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Google.Protobuf" Version="3.20.0-rc2" />
+      <PackageReference Include="Grpc.Net.Client" Version="2.44.0" />
+      <PackageReference Include="Grpc.Tools" Version="2.45.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\Protos\greet.proto">
+        <Link>Protos\greet.proto</Link>
+      </Content>
+      <Content Include="..\Protos\shop.proto">
+        <Link>Protos\shop.proto</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Protobuf Include="..\Protos\shop.proto" GrpcServices="Client"/>    
+    </ItemGroup>
+    
+</Project>

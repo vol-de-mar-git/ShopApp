@@ -1,0 +1,12 @@
+C:\Users\vladu\RiderProjects\TestDb2\Launcher.Grpc\obj\Debug\net5.0\Launcher.Grpc.csproj.AssemblyReference.cache
+C:\Users\vladu\RiderProjects\TestDb2\Launcher.Grpc\obj\Debug\net5.0\Launcher.Grpc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladu\RiderProjects\TestDb2\Launcher.Grpc\obj\Debug\net5.0\Launcher.Grpc.AssemblyInfoInputs.cache
+C:\Users\vladu\RiderProjects\TestDb2\Launcher.Grpc\obj\Debug\net5.0\Launcher.Grpc.AssemblyInfo.cs
+C:\Users\vladu\RiderProjects\TestDb2\Launcher.Grpc\obj\Debug\net5.0\Launcher.Grpc.csproj.CoreCompileInputs.cache
+C:\Users\vladu\RiderProjects\TestDb2\Launcher.Grpc\bin\Debug\net5.0\Launcher.Grpc.deps.json
+C:\Users\vladu\RiderProjects\TestDb2\Launcher.Grpc\bin\Debug\net5.0\Launcher.Grpc.dll
+C:\Users\vladu\RiderProjects\TestDb2\Launcher.Grpc\bin\Debug\net5.0\ref\Launcher.Grpc.dll
+C:\Users\vladu\RiderProjects\TestDb2\Launcher.Grpc\bin\Debug\net5.0\Launcher.Grpc.pdb
+C:\Users\vladu\RiderProjects\TestDb2\Launcher.Grpc\obj\Debug\net5.0\Launcher.Grpc.dll
+C:\Users\vladu\RiderProjects\TestDb2\Launcher.Grpc\obj\Debug\net5.0\ref\Launcher.Grpc.dll
+C:\Users\vladu\RiderProjects\TestDb2\Launcher.Grpc\obj\Debug\net5.0\Launcher.Grpc.pdb
